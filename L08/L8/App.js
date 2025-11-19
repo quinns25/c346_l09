@@ -83,12 +83,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   scrollContainer: {
-    paddingVertical: 30, // adds padding on top and bottom
-    alignItems: 'center', // centers the cards
-    width: '100%', // make sure the scrollable content uses full width
-  },
-  title: {
-    fontSize: 30,
     fontWeight: '800', // makes the text bold
     color: '#2E2E2E',
     textAlign: 'center',
@@ -98,6 +92,12 @@ const styles = StyleSheet.create({
     fontSize: 15, // controls how big the text appears
     color: '#555', // sets text colour
     textAlign: 'center',
+    paddingVertical: 30, // adds padding on top and bottom
+    alignItems: 'center', // centers the cards
+    width: '100%', // make sure the scrollable content uses full width
+  },
+  title: {
+    fontSize: 30,
     marginTop: 4, // adds space above the subtitle
     marginBottom: 12, // adds space below the subtitle
     fontStyle: 'italic',
